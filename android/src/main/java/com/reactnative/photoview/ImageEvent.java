@@ -54,7 +54,7 @@ public class ImageEvent extends Event<ImageEvent> {
       case ON_VIEW_TAP:
         return "topViewTap";
       case ON_SCALE:
-        return "topScale";
+        return "topOnScale";
       default:
         throw new IllegalStateException("Invalid image event: " + Integer.toString(eventType));
     }
